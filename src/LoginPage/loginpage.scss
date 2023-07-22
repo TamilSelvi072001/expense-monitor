@@ -1,0 +1,38 @@
+.login-page {
+    .brand {
+      padding: 5rem;
+      .topic-name {
+        font-family: cursive;
+        font-size: xxx-large;
+        text-align: center;
+      }
+      .objective-name {
+        font-family: monospace;
+        font-size: xx-large;
+        text-align: center;
+      }
+    }
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .login-content {
+        padding: 2rem 3rem;
+        background: #f1eeec;
+        max-width: fit-content;
+        border-radius: 8px;
+      }
+      .login-submit-button {
+        text-align: center;
+      }
+      .login-signup{
+          text-align: center;
+          text-decoration: underline;
+          color: #716E6E;
+          padding-top: 1rem;
+          cursor:pointer;
+      }
+    }
+  }
+  
+   
