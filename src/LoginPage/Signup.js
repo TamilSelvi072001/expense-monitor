@@ -50,7 +50,7 @@ const Signup = () => {
               </CCol>
             </CRow>
             <div className="loginpage-submit-button pt-3">
-              <CButton color="secondary">Submit</CButton>
+              <CButton color="secondary"  onClick={() => (window.location.href = "/")}>Submit</CButton>
             </div>
             <div
               className="login-signup"

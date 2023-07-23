@@ -1,0 +1,31 @@
+.main-page{
+    background: rgb(40.8%,41.2%,42%);
+    height: 100vh;
+    .mainpage-header{
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+    }
+    .mainpage-top-cards{
+        background-color: white;
+        border:1px solid #EEEEEE;
+        margin:10px;
+        border-radius: 8px;;
+        height: 15vh;
+    }
+    .mainpage-bottom-cards{
+        background: #9D9FA2;
+        border-radius: 8px;
+        border:1px solid #EEEEEE;
+        margin:10px;
+        padding:10px;
+        height: 73vh;
+        .add-message-col{
+            max-height: 40px;
+        }
+        .add-button{
+            background-color: white;
+            border-radius: 8px;
+        }
+    }
+}

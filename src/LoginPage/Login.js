@@ -2,7 +2,7 @@ import React from "react";
 import { CFormLabel, CFormInput, CRow, CCol, CButton } from "@coreui/react";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "./loginpage.scss";
-import "@coreui/coreui/dist/css/coreui.min.css";
+
 const Login = () => {
   return (
     <div className="signup-page">
@@ -28,7 +28,7 @@ const Login = () => {
             </CRow>
 
             <div className="loginpage-submit-button pt-3">
-              <CButton color="secondary">Submit</CButton>
+              <CButton color="secondary" onClick={() => (window.location.href = "/mainpage")}>Submit</CButton>
             </div>
             <div
               className="login-signup"
